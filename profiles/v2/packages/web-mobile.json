@@ -1,0 +1,52 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "web-mobile-pikapika",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "debug": false,
+      "sourceMaps": false,
+      "experimentalEraseModules": false,
+      "scenes": [
+        {
+          "url": "db://assets/vd-boot/StartScene.scene",
+          "uuid": "fc3c5944-03ea-49ff-9194-231e2f9ee56e",
+          "inBundle": false
+        },
+        {
+          "url": "db://assets/vd-games/pvp_pika_pika/res/pika_Scene.scene",
+          "uuid": "87728c28-03b3-4629-87d6-8debac082fdd",
+          "inBundle": true
+        }
+      ],
+      "name": "PikaPika"
+    },
+    "taskOptionsMap": {
+      "1677221549932": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1681381280830": {
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1681876291269": {
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.4",
+    "options": {
+      "web-mobile": {
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    }
+  }
+}
